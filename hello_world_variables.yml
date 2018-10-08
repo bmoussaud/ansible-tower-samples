@@ -3,5 +3,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World! {{ mode }}""
+        msg: "Hello World! {{ mode }}"
 
