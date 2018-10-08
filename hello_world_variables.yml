@@ -3,5 +3,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello {{ application['app']/application['version']/application['mode'] }} ! {{ mode }}"
+        msg: "Hello {{ application['app'] }}/{{ application['version'] }}/{{ application['mode'] }} ! {{ mode }}"
 
